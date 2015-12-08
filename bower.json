@@ -1,0 +1,23 @@
+{
+  "name": "learn_angular-requirejs",
+  "homepage": "https://github.com/Sspeed5cm/learn_angular-requirejs",
+  "authors": [
+    "dulin <novaline@qq.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "requirejs": "https://github.com/jrburke/requirejs.git#~2.1.22",
+    "angular": "~1.4.8",
+    "angular-route": "~1.4.8"
+  }
+}
