@@ -1,3 +1,3 @@
 # learn_angular-requirejs
 
-ÿ��exampleΪһ��angularjs + requirejs�ļܹ�
+每个example为一种angularjs + requirejs的架构
