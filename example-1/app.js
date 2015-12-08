@@ -20,13 +20,11 @@ define([
 
     function config($routeProvider, $controllerProvider, $compileProvider, $filterProvider, $provide) {
 
-
         app.controllerProvider = $controllerProvider;
         app.compileProvider = $compileProvider;
         app.routeProvider = $routeProvider;
         app.filterProvider = $filterProvider;
         app.provide = $provide;
-
 
         $routeProvider
             .when('/', {

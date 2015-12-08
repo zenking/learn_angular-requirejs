@@ -1,11 +1,10 @@
 define([
-    'require',
     'angular',
-    'app',
-    'router'
-], function(require, angular) {
+    'app'
+], function(angular) {
 
-    require(['domReady!'], function(document) {
+    angular.element(document).ready(function() {
         angular.bootstrap(document, ['app']);
     });
+
 });

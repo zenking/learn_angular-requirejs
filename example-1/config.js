@@ -14,6 +14,7 @@
             //lib
             angular: '../bower_components/angular/angular',
             route:  '../bower_components/angular-route/angular-route',
+            text: '../bower_components/text/text',
 
             //app script
             app: 'app',
@@ -25,14 +26,20 @@
             homeService: './home/home.service',
 
             //common module dir
-            directives: 'directives/',
-            services: 'services/'
+            directives: './directives',
+            services: './services'
 
         },
 
         shim: {
 
-            route: ['angular']
+            angular: {
+                exports: 'angular'
+            },
+
+            route: {
+                deps: ['angular']
+            }
 
         },
 

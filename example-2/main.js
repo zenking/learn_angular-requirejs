@@ -2,7 +2,7 @@
  * Created by dulin on 2015/11/3.
  */
 
-(function(require) {
+(function (require) {
 
     var config = {
 

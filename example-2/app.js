@@ -1,6 +1,6 @@
 define([
     'angular',
-    'route',
+    './router',
     './controllers/index',
     './directives/index',
     './filters/index',

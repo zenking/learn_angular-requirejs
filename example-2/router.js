@@ -3,29 +3,30 @@
  */
 
 define([
-    './app'
-], function(app) {
+    'app'
+], function() {
 
-    return app.config(['$stateProvider', '$urlRouterProvider', function($stateProvider) {
+    angular
+        .module('app')
+        .config(config);
 
-        $urlRouterProvider
-            .when('/', '/ng')
-            .otherwise('/');
+    config.$inject = ['$routeProvider'];
 
-        $stateProvider
-            .state('ng', {
-                url: '/ng',
-                controller: 'NgController',
-                templateUrl: 'app/views/ng.html',
-                resolve: {
+    function config($routeProvider) {
 
-                }
+        $routeProvider
+            .when('/', {
+                templateUrl: '',
+                controller: ''
             })
-            .state('jq', {
-                url: '/jq',
-                controller: 'JqController',
-                templateUrl: 'app/views/jq.html'
+            .when('/contact', {
+                templateUrl: ''
             })
-    }]);
-
+            .when('/about', {
+                templateUrl: ''
+            })
+            .otherwise({
+                redirectTo: '/'
+            })
+    }
 });
