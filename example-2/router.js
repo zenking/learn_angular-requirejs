@@ -16,17 +16,23 @@ define([
 
         $routeProvider
             .when('/', {
-                templateUrl: '',
-                controller: ''
+                templateUrl: './views/home.tpl.html',
+                controller: 'HomeController',
+                controllerAs: 'home'
             })
             .when('/contact', {
-                templateUrl: ''
+                templateUrl: './views/contact.tpl.html',
+                controller: 'ContactController',
+                controllerAs: 'contact'
             })
             .when('/about', {
-                templateUrl: ''
+                templateUrl: './views/about.tpl.html',
+                controller: 'AboutController',
+                controllerAs: 'about'
             })
             .otherwise({
                 redirectTo: '/'
-            })
+            });
+
     }
 });

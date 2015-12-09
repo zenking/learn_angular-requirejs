@@ -6,4 +6,5 @@ define([
 ], function(angular) {
 
     return angular.module('app.controllers', []);
+
 });

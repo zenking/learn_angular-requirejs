@@ -1,6 +1,7 @@
 define([
     'angular',
-    'app'
+    'app',
+    './router'
 ], function(angular) {
 
     angular.element(document).ready(function() {

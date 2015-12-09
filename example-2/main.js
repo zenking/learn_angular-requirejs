@@ -13,9 +13,7 @@
         paths: {
 
             angular: "../bower_components/angular/angular",
-            route: '../bower_components/angular-route/angular-route.js'
-
-            //app script
+            route: '../bower_components/angular-route/angular-route'
 
         },
 
