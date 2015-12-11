@@ -4,7 +4,6 @@
 define([
     'app',
     'angular',
-    //user.service通过define引入
     'services/user.service'
 ], function() {
 
