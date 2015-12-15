@@ -33,7 +33,6 @@ define([
                     deps: ['$q', '$rootScope', function($q, $rootScope) {
                         var deferred = $q.defer();
 
-                        //homeService通过require方法引入
                         require(['homeController', 'homeService'], function() {
                             $rootScope.$apply(function() {
                                 deferred.resolve();
